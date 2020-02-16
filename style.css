@@ -1,0 +1,165 @@
+/* Colors and fonts */
+
+body {
+   background-color: #E8D0B7;
+   color: #111111;
+   font-size: 20px;
+   font-weight: lighter;
+  }
+
+
+h1 {
+	color:  #E8D0B7;
+    letter-spacing: 4px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+ 
+h2 {
+	margin-top: 10px;
+	color: #111111;
+	font-size: 40px;
+	font-weight: 400;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+	font-family: 'Nanum Myeongjo', serif;
+	font-size: 19px;
+	font-weight: 700;
+	color: #8DAA9D;
+}
+
+a {
+	color: #8DAA9D;
+	text-decoration: none;
+	font-weight: 200;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+}
+
+a:hover {
+	color:#FBF5F3 ;
+}
+
+
+
+
+
+/* Custom design of each 'class' elements */
+
+
+.container {
+	width: 790px;
+	margin: -78px auto;
+}
+
+@media (max-width: 830px) {
+.container {
+    width: 650px;
+    }
+}
+
+@media (max-width: 670px) {
+.container {
+    width: 490px;
+    }
+}
+
+@media (max-width: 510px) {
+.container {
+    width: 420px;
+    }
+}
+
+@media (max-width: 460px) {
+.container {
+    width: 360px;
+    }
+}
+
+.Intro {
+    background: #5C0029;
+    padding: 29px;
+    margin: 127px auto;
+    box-shadow: inset -7px -5px 20px 5px;
+    border-radius: 34px;
+    text-align: center;
+}
+
+.redwine {
+	background-color: #5C0029;
+	padding: 29px;
+    margin: 71px auto;
+	border-radius: 24px;
+	text-align: center;
+}
+
+
+
+.Image {
+	border-radius: 40%;
+	border: 6px solid black;
+}
+
+.images {
+	border-radius: 60%;
+	margin: 0px auto;
+}
+
+
+.text-justify {
+	text-align: center;
+}
+
+.button {
+	background-color: #8DAA9D;
+	color: #5C0029;
+	padding: 8px 14px;
+	border-radius: 34px;
+	margin-bottom: 16px;
+}
+
+.button:hover {
+	background-color: #E8D0B7;
+	color: black;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+.list-inline li {
+	display: inline;
+	padding: 13px;
+	height: 100px;
+}
+
+.list-inline i {
+	font-size: 60px;
+	color: #8DAA9D;
+	background: #111111;
+	border-radius: 14%;
+}
+
+.list-inline i:hover {
+	font-size: 70px;
+	color: #FBF5F3;
+}
+
+.fab, .far {
+    font-weight: 400;
+}
+
+#intro p {
+    margin-bottom: 16px;
+}
+
+.btn {
+	height: 100px;
+	font-weight: 100;
+}
